@@ -1,51 +1,212 @@
-<!DOCTYPE html>
-<html lang="en">
+ 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
-  <link rel="stylesheet" href="style.css">
-<!--byjunkei42-->
+<meta name="googlebot" content="all,index,follow">
+<meta name="robots" content="index, follow">
+<html>
+<title>lebaran2021 | thrmanawoy</title>
+<link rel="shortcut icon" href="http://th02.deviantart.net/fs70/PRE/i/2013/087/e/3/evil_rabbit_icon_by_slamiticon-d5z7lkb.png">
+<link href='http://fonts.googleapis.com/css?family=Jolly+Lodger' rel='stylesheet' type='text/css'>
+<script src="http://e-mete.com/js/kdsnow.js"></script>
+</head>
+<iframe>
+<source src="http://c.top4top.io/m_193157jlp0.mp3" type="audio/mpeg">
+</iframe>
+<body oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;" type="text/css" bgcolor="#010101">
+<style type="text/css">
+body {
+ font-family: 'Jolly Lodger';
+ color: white;
+ padding: 0;
+ margin: 0;
+ background-image: url('');
+ background-repeat:no-repeat;
+ background-position:center;
+ background-size: 100% 100%;
+}
+.GopressXploits_Blink {
+-webkit-animation-name: blinker;
+-webkit-animation-duration: 2s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+ 
+-moz-animation-name: blinker;
+-moz-animation-duration: 1s;
+-moz-animation-timing-function: linear;
+-moz-animation-iteration-count: infinite;
+ 
+ animation-name: blinker;
+ animation-duration: 1s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ 
+ color: red;
+}
+ 
+@-moz-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+ 
+@-webkit-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+ 
+@keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+img {
+opacity: 0.8;
+}
+img {
+animation-name: rotate ;
+animation-duration: 5s;
+animation-play-state: running;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+opacity: 1.0;
+filter: alpha(opacity=50);
+}
+img:hover {
+opacity: 1.0;filter: alpha(opacity=100);
+}
+@keyframes rotate{
+10% {transform:rotateY(36deg)}
+20% {transform:rotateY(72deg)}
+30% {transform:rotateY(108deg)}
+40% {transform:rotateY(144deg)}
+50% {transform:rotateY(180deg)}
+60% {transform:rotateY(216deg)}
+70% {transform:rotateY(252deg)}
+80% {transform:rotateY(288deg)}
+90% {transform:rotateY(324deg)}
+100% {transform:rotateY(360deg)}
+}
+</style>
 <script type="text/javascript">
-window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){e.preventDefault()}});document.keypress=function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){}return false}
+TypingText = function(element, interval, cursor, finishedCallback) {
+  if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) {
+    this.running = true;    // Never run.
+    return;
+  }
+  this.element = element;
+  this.finishedCallback = (finishedCallback ? finishedCallback : function() { return; });
+  this.interval = (typeof interval == "undefined" ? 30 : interval);
+  this.origText = this.element.innerHTML;
+  this.unparsedOrigText = this.origText;
+  this.cursor = (cursor ? cursor : "");
+  this.currentText = "";
+  this.currentChar = 0;
+  this.element.typingText = this;
+  if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+  TypingText.all.push(this);
+  this.running = false;
+  this.inTag = false;
+  this.tagBuffer = "";
+  this.inHTMLEntity = false;
+  this.HTMLEntityBuffer = "";
+}
+TypingText.all = new Array();
+TypingText.currentIndex = 0;
+TypingText.runAll = function() {
+  for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+}
+TypingText.prototype.run = function() {
+ if(this.running) return;
+ if(typeof this.origText == "undefined") {
+    setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);   // We haven't finished loading yet.  Have patience.
+   return;
+ }
+ if(this.currentText == "") this.element.innerHTML = "";
+ if(this.currentChar < this.origText.length) {
+   if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+     this.tagBuffer = "<";
+     this.inTag = true;
+     this.currentChar++;
+     this.run();
+     return;
+   } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+     this.tagBuffer += ">";
+      this.inTag = false;
+      this.currentText += this.tagBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inTag) {
+      this.tagBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == "&" && !this.inHTMLEntity) {
+     this.HTMLEntityBuffer = "&";
+      this.inHTMLEntity = true;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == ";" && this.inHTMLEntity) {
+     this.HTMLEntityBuffer += ";";
+      this.inHTMLEntity = false;
+      this.currentText += this.HTMLEntityBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inHTMLEntity) {
+      this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else {
+      this.currentText += this.origText.charAt(this.currentChar);
+    }
+    this.element.innerHTML = this.currentText;
+    this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+   this.currentChar++;
+   setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+ } else {
+    this.currentText = "_";
+    this.currentChar = 0;
+       this.running = false;
+       this.finishedCallback();
+ }
+}
 </script>
-<script type="text/javascript">
-document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}
+</head>
+<br><br><br><br>
+<center>
+<img src="https://b.top4top.io/p_1958zszq40.png" width="270" height="300">
+    <div class="GopressXploits_Blink">
+    <font face="Jolly Lodger" size="6" color="white"><u> # <font face="Jolly Lodger" size="6" color="#00A7FF"> Santr<font face="Jolly Lodger" size="6" color="red">3-<font face="Jolly Lodger" size="6" color="#00A7FF">Durhaka</u> </font></font></font><br>
+   </div>
+[<marquee behavior="alternate" scrollamount="50" width="250"> <font size="4" color="red">________<font size="4" color="yellow">________<font size="4" color="#1CFF00">________<font size="4" color="#00A7FF">________</font></font></font></font></marquee>]
+<br><br>
+<font size="5" color="#00A7FF">
+Selamat Hari Raya  </font> <br>
+<font size="5" color="#00A7FF">
+Idul Fitri </font> <br>
+<font size="5" color="#00A7FF">
+1<font size="5" color="red">4<font size="5" color="#00A7FF">4<font size="5" color="red">2<font size="5" color="#00A7FF"> Hijriah </font> <br>
+<font size="5" color="#00A7FF">
+zuhahaha
+</font></b>
+<br>
+[<marquee behavior="alternate" scrollamount="50" width="250"> <font size="4" color="red">________<font size="4" color="yellow">________<font size="4" color="#1CFF00">________<font size="4" color="#00A7FF">________</font></font></font></font></marquee>]
+<br>
+<font face="Jolly Lodger" size="5" color="white">mrjunkei42@root.go.<font face="Jolly Lodger" size="5" color="red">i<font face="Jolly Lodger" size="5" color="white">d</font>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582CL4NjpNgssKHhQ8UNlT%2bicowX6WKcKBMlcV2SPk3I66hPFw4A7uKvRlKZ29RWmGBGgk6%2bPkO6t%2b%2bZtgQnJQ%2fVwkd6KeMpLEC26dwRXvWtcE8XNAJtQYNOaoNRQcTshMpXcJY%2b%2b8yKDICaCGFS%2fqqDC4eRWqt2MdclCyWZH871kAz%2fsSX2zctMhng163AQ3e3TSRRYD35yPkQp3nnMTx8yFqI6uV%2bzfVX6mm0EeULxLBvAThBJtCytsC42rK79HEkenzuc%2fnJQ9r0KApCgL3I15fLBUaoSkLNC13WMd1D4HoSS9iDtQnsAI6bKY1Gz2Ol2bGKaBbEf5ITdZ%2fAjAtZtLHy%2fdxaZcln6ENNhV9O9kqouVx3Q%2bBsc%2fPcK0hSoR4gncm2k%2fjKfZGKY%2b6BmAT1%2fBYX4M94urwihGN9O8v8DotptDREqOb4pf3Kd5xCbLOeiWDjHFHW%2f3QUnkX%2feo8NHwkyS6tsLcOfttTinfNpcZ9DkVYjKKYJm3avHUDaKnJdKevkxxx%2boF7oY3J0byI2Gse3CgOSzlY6W976qV2CEHtVmw4v7dmh68D6dgiHSH8uA%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+<center>
+ <div id="bar" class="GopressXploits_Blink" style="position: fixed; width: 100%; top: 0px; font-family: Inconsolata; height: 20px; color: #ccc; font-size: 13px; left: 0px; border-top: 1px solid #222; padding: 5px; background-color: #222">
+    <font size="3" color="white" > </font><marquee align="center" scrollamount="10" width="560"> <font size="3" color="cyan">Bila Kata Merangkai Dusta, Bila Langkah Mebekas Lara, Bila Hati Penuh Prasangka Dan Bila Ada langkah Yang Menoreh Luka! Muhon Bukakan Pintu Maaf.</font></marque>
+   </div>
+<a href="https://www.facebook.com/aismaulanarekber" target="_blank">junkei</a>
+MOHON MAAF LAHIR BATIN »
+   <script type="text/javascript">
+new TypingText(document.getElementById("sualmukuna_cugh"));
+TypingText.runAll();
 </script>
-  </head>
-<body>
-  <div class="profile-card">
-    <div class="card-header">
-      <div class="pic">
-        <img src="pic.png" alt="">
-      </div>
-      <div class="name">Ais Maulana</div>
-      <div class="sm">
-        <a href="https://www.facebook.com/aismaulanarekber" class="fab fa-facebook-f"></a>
-        <a href="https://mobile.twitter.com/Santr3Durhaka" class="fab fa-twitter"></a>
-        <a href="https://wa.me/62895358289240" class="fab fa-whatsapp"></a></p>
-      </div>
-      <class="contact-btn">Focus on a location, then execute.</a>
-    </div>
-    <div class="card-footer">
-      <div class="numbers">
-        <div class="item">
-          <span>1</span>
-          Posts
-        </div>
-        <div class="border"></div>
-        <div class="item">
-          <span>4</span>
-          Following
-        </div>
-        <div class="border"></div>
-        <div class="item">
-          <span>21</span>
-          Followers
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
+   </center>
 </html>
+<center>
