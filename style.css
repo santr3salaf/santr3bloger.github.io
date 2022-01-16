@@ -132,3 +132,108 @@ body{
   background: #bbb;
 }
 
+/* TWITTER */
+.social-media-button.icon.twitter:before {
+    content: "\f099";
+}
+.social-media-button.twitter {
+    background: #1da1f2;
+}
+ 
+/* FACEBOOK */
+.social-media-button.icon.facebook:before {
+    content: "\f230";
+}
+.social-media-button.facebook {
+    background: #3b5998;
+}
+
+/* YOUTUBE */
+.social-media-button.icon.youtube:before {
+    content: "\f167";
+}
+.social-media-button.youtube {
+    background: #cd201f;
+}
+ 
+/* GOOGLE+ */
+.social-media-button.icon.gplus:before {
+    content: "\f0d5";
+}
+.social-media-button.gplus {
+    background: #dd4b39;
+}
+ 
+/* INSTAGRAM */
+.social-media-button.icon.instagram:before {
+    content: "\f16d";
+}
+.social-media-button.instagram {
+    background: #517fa4;
+}
+ 
+/* PINTEREST */
+.social-media-button.icon.pinterest:before {
+    content: "\f0d2";
+}
+.social-media-button.pinterest {
+    background: #bd081c;
+}
+ 
+/* LINKEDIN */
+.social-media-button.icon.linkedin:before {
+    content: "\f08c";
+}
+.social-media-button.linkedin {
+    background: #0077b5;
+}
+ 
+/* RSS */
+.social-media-button.icon.rss:before {
+    content: "\f143";
+}
+.social-media-button.rss {
+    background: #f26522;
+}
+ 
+/* SKYPE */
+.social-media-button.icon.skype:before {
+    content: "\f17e";
+}
+.social-media-button.skype {
+    background: #00aff0;
+}
+ 
+/* WHATSAPP */
+.social-media-button.icon.whatsapp:before {
+    content: "\f232";
+}
+.social-media-button.whatsapp {
+    background: #43d854;
+}
+ 
+/* WORDPRESS */
+.social-media-button.icon.wordpress:before {
+    content: "\f19a";
+}
+.social-media-button.wordpress {
+    background: #21759b;
+}
+ 
+/* TUMBLR */
+.social-media-button.icon.tumblr:before {
+    content: "\f173";
+}
+.social-media-button.tumblr {
+    background: #35465c;
+}
+ 
+/* DROPBOX */
+.social-media-button.icon.dropbox:before {
+    content: "\f16b";
+}
+.social-media-button.dropbox {
+    background: #007ee5;
+}
+
+
